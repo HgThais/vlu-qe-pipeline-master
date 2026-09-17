@@ -1,0 +1,14 @@
+{
+  "name": "jest-auth-testing",
+  "version": "1.0.0",
+  "description": "Smoke and Regression test suite for authentication module using Jest",
+  "main": "auth.js",
+  "scripts": {
+    "test": "jest",
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
