@@ -2,7 +2,7 @@
  * auth.js
  * Module xác thực tài khoản
  */
-
+// Update auth logic
 // Giả lập cơ sở dữ liệu người dùng
 const USERS_DB = {
   admin: {
